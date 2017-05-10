@@ -1,5 +1,7 @@
 # NodeJs Distributed and resilient job scheduling framework
 
+This fork will be used to modularize persistence, allowing databases as well in-memory databases (Redis, etc)
+
 ## Installation
 
 It's on NPM.
