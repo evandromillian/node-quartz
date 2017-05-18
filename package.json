@@ -21,7 +21,7 @@
     "lodash": "~2.4.1",
     "moment": "~2.6.0",
     "moment-range": "~1.0.2",
-    "mysql": "github:mysqljs/mysql",
+    "sequelize": "",
     "redis": "~0.10.3",
     "winston": "~0.7.3"
   }
