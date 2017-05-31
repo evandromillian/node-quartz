@@ -5,7 +5,7 @@ module.exports = function(sequelize, DataTypes) {
     ky: { type: DataTypes.STRING(1000) },
     val: { type: DataTypes.STRING(2000) },
     dt: { type: DataTypes.DATE },
-    idx: { type: DataTypes.INTEGER }
+    idx: { type: DataTypes.INTEGER, allowNull: true }
   }, {
     tableName: 'key_values',
     timestamps: false
